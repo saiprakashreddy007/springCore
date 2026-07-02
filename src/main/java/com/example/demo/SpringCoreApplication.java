@@ -14,7 +14,8 @@ public class SpringCoreApplication {
 		//SpringApplication.run(SpringCoreApplication.class, args);
 		ApplicationContext context=new ClassPathXmlApplicationContext("springcore.xml");
 		Writer writer = (Writer) context.getBean("writer");
-		writer.write(null);
+		//writer.write(null);
+		//erroe conmpilication 
 	}
 
 }

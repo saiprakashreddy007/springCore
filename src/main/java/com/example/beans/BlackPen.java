@@ -6,13 +6,13 @@ public class BlackPen implements Ink{
 
 	@Override
 	public String getColor() {
-		// TODO Auto-generated method stub
+	//this is a colour method
 		return "blue";
 	}
 
 	@Override
 	public String getBrandColor() {
-		// TODO Auto-generated method stub
+		//this is a brankcolor
 		return "aprasa";
 	}
 
